@@ -1,4 +1,4 @@
-# demo-gamedave-chocobo-banner
+# animated-gamedave-chocobo-banner
 A CSS banner for GameDave's subreddit.
 
 Check out the banner in action!
