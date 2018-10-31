@@ -2,30 +2,7 @@
 <html>
   <head>
     <title>Game Dave Banner</title>
-    <style>
-      body {
-        height: 100%;
-        width: 100%;
-        margin: 0px;
-        background-color: #000000;
-      }
-      #banner {
-        position: fixed;
-        top: calc(50% - 87px);
-        left: 0px; 
-        height: 175px;
-        width: 100%;
-        background: url(images/cbr-grass-close.png), url(images/cbr-gamedave-sprite.png), url(images/cbr-gamedave-logo.png), url(images/cbr-grass.png), url(images/cbr-mountians.png), url(images/cbr-airship.png), url(images/cbr-clouds.png);
-        background-position: 0px 0px;
-        animation: animatedBanner 120s steps(3600) infinite;
-        background-repeat: repeat-x, repeat-y, no-repeat, repeat-x, repeat-x, repeat-y, repeat-x;
-        border-bottom: 1px solid #009900;
-      } 
-      @keyframes animatedBanner {
-        0% { background-position: 0 0, 0 0, 0 0, 0 0, 0 0, 150% 20px, 0 0 }
-        100% { background-position: -45360px 0, 110% -630000px, 0 0, -9070px 0, -2268px 0, -150% -630020px, 0 0 }
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="chocobo-banner.css"> 
   </head>
   <body>
     <div id="banner"></div>
